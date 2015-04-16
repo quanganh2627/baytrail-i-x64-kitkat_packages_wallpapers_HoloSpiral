@@ -24,5 +24,5 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) $(call all-renderscript-files-u
 LOCAL_PACKAGE_NAME := HoloSpiralWallpaper
 LOCAL_CERTIFICATE := shared
 LOCAL_SDK_VERSION := 14
-
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PACKAGE)
